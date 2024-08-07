@@ -35,16 +35,16 @@ const Navbar = () => {
                 </div>
             </div>
             {mobileDrawerOpen && (
-            <div  className = "fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
+            <div  className = "fixed right-0 z-20 bg-blue-gray-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
              <ul>
               {navItems.map((item,index) =>(
-                 <li key={index} className='py-4 hover:bg-white'>
-                   <a href={navItems.href}>{item.label}</a>
+                 <li key={index} className='py-4'>
+                   <a href={navItems.href} className='text-1xl'>{item.label}</a>
                  </li>
               ))}
              </ul>
              <div className="flex space-x-6">
-              <a href="#" className='bg-gradient-to-r from-orange-500 to-orange-700 py-2 px-3 border rounded-md w-80 mt-2 text-center'>
+              <a href="#" className='bg-gradient-to-r  from-orange-500 to-orange-700 py-2 px-3 border rounded-md w-80 mt-2 text-center'>
                 Let's Talk
               </a>
              </div>
