@@ -28,7 +28,7 @@ const HeroSection = () => {
     <div className="flex flex-col items-center lg:items-start mt-6 w-full  lg:mt-16 lg:mx-6">
       <style>{glowStyle}</style>
       <h1 className="text-4xl sm:text-6xl lg:text-6xl text-center lg:text-start tracking-wide">
-        Elevate Your Online Prescence With<br></br>
+        Elevate Your Online Presence With<br></br>
         <span className="glow my-3">Nexglimpse</span>
       </h1>
       <p className="mt-8 text-lg text-center lg:text-start text-neutral-500 max-w-4xl">

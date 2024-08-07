@@ -18,6 +18,9 @@ const Workflow = () => {
           NEXGLIMPSE<br></br>??
         </span>
       </h2>
+      {/* <div>
+        <h3>Play Video</h3>
+      </div> */}
         </div>
         <div className="pt-12 px-3 w-full lg:w-1/2">
           {checklistItems.map((item, index) => (
